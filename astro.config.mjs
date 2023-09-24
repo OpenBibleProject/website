@@ -7,6 +7,18 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'OpenBibleProject',
+			// Set English as the default language for this site.
+			defaultLocale: 'en',
+			locales: {
+				// English docs in `src/content/docs/en/`
+				en: {
+					label: 'English',
+				},
+				de: {
+					label: 'Deutsch',
+					lang: 'de',
+				},
+			},
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
