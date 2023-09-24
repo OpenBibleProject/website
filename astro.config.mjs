@@ -8,11 +8,12 @@ export default defineConfig({
 		starlight({
 			title: 'OpenBibleProject',
 			// Set English as the default language for this site.
-			defaultLocale: 'en',
+			defaultLocale: 'root',
 			locales: {
-				// English docs in `src/content/docs/en/`
-				en: {
+				// English docs in `src/content/docs/`
+				root: {
 					label: 'English',
+					lang: 'en',
 				},
 				de: {
 					label: 'Deutsch',
