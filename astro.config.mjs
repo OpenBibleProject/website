@@ -26,7 +26,8 @@ export default defineConfig({
 			customCss: [
 				// Relative path to your custom CSS file
 				'@fontsource-variable/inter',
-				'/src/assets/custom-styles.css'
+				'@fontsource-variable/jetbrains-mono',
+				'/src/assets/custom-styles.css',
 			],
 		}),
 	],
