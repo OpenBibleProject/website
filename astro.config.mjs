@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://openbibleproject.github.io',
+	site: 'https://obp.awesomebible.de',
 	integrations: [
 		starlight({
 			title: 'OpenBibleProject',
@@ -20,6 +20,9 @@ export default defineConfig({
 					lang: 'de',
 				},
 			},
+			editLink: {
+				baseUrl: 'https://github.com/openbibleproject/docs/edit/main/',
+			  },
 			social: {
 				github: 'https://github.com/OpenBibleProject',
 			},
