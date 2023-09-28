@@ -28,10 +28,18 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'OpenBibleProject',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'About us', 
+						  link: '/about/',
+						  translations: {
+							de: 'Über uns',
+							} 
+						},
+						{ label: 'awesomeBible', 
+						  link: 'https://awesomebible.de/',
+						},
 					],
 				},
 				{
