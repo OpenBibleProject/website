@@ -37,9 +37,6 @@ export default defineConfig({
 							de: 'Über uns',
 							} 
 						},
-						{ label: 'awesomeBible', 
-						  link: 'https://awesomebible.de/',
-						},
 					],
 				},
 				{
