@@ -1,0 +1,51 @@
+---
+title: Modul Index
+description: Spezifikation für den Modul-Index
+---
+import FileTree from '../../../../components/file-tree.astro';
+
+Bibelmodule enthalten eine `index.json`-Datei im Stammverzeichnis des Moduls, die Metadaten über das Modul enthält.
+
+<FileTree>
+
+- index.json
+- ot/
+  - Genesis/
+    - 1.md
+    - ...
+- nt/
+  - Matthäus/
+    - 1.md
+    - ...
+
+</FileTree>
+
+Die Index-Datei muss folgende Informationen enthalten:
+
+```json
+{
+    "name": "Name der Übersetzung",
+    "description": "Beschreibung der Übersetzung",
+    "slug": "Kurzzeichen der Übersetzung, nur mit Kleinbuchstaben, ohne Leerzeichen oder Sonderzeichen",
+    "language": "de",
+    "booknames": { // Lesbare Namen der Bücher
+        "ot": [
+          "Genesis",
+          // ...
+        ],
+        "nt": [
+          "Matthäus",
+          // ...
+        ],
+    },
+    "books": { // Pfade zu den Buchdateien
+      "ot": [
+        "ot/Genesis/",
+      ],
+      "nt": [
+        "nt/Matthäus/",
+      ]
+    }
+
+```
+
