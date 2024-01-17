@@ -14,8 +14,8 @@
     "@astrojs/starlight": "^0.15.3",
     "@fontsource-variable/inter": "^5.0.16",
     "@fontsource-variable/jetbrains-mono": "^5.0.19",
-    "astro": "^4.1.1",
-    "sharp": "^0.33.1"
+    "astro": "^4.1.3",
+    "sharp": "^0.33.2"
   },
   "devDependencies": {
     "hast-util-from-html": "^2.0.1",
