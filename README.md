@@ -1,39 +1,30 @@
-# Starlight Starter Kit: Basics
+# OpenBibleProject 📖
+The OpenBibleProject provides a specification for bible modules that are both easy to implement and portable.
 
-```
-npm create astro@latest -- --template starlight
-```
+All the modules are licensed under permissive licenses, so that you don't have to worry about licensing when using them in your projects.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
+## Available modules
+- [Menge](https://github.com/OpenBibleProject/menge)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## 🚀 Project Structure
+## Contributing
+### ... to the bible modules
+If you would like to contribute to the bible modules, make yourself familiar with the module spec.
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+The first step would be to convert your translation into individual markdown files for each book / chapter, then you can add the index file for metadata.
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   │   └── config.ts
-│   └── env.d.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+If your module is done, submit it via the [Github Discussion](https://github.com/orgs/OpenBibleProject/discussions/new?category=submit-modules) feature.
+
+### ... to the documentation
+The OpenBibleProject website & documentation is built using [Astro](https://astro.build/) and the [Starlight theme](https://starlight.astro.build/).
 
 Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
 
+If you'd like to translate pages, create a file with the same name in the respective language subdirectory.
+
 Images can be added to `src/assets/` and embedded in Markdown with a relative link.
 
-Static assets, like favicons, can be placed in the `public/` directory.
-
-## 🧞 Commands
+#### 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -46,6 +37,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+### OpenBibleProject, an awesomeBible project.
+<a href="https://awesomebible.de" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.com/OpenBibleProject/openbibleproject.github.io/assets/42138517/1f02169e-29c5-4df9-a773-931d38537d9e" height="133" width="265" alt="awesomeBible Logo"></img>
+</a>
