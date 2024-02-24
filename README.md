@@ -1,4 +1,6 @@
 # OpenBibleProject 📖
+Read this in: [German 🇩🇪](README_DE.md)
+
 The OpenBibleProject provides a specification for bible modules that are both easy to implement and portable.
 
 All the modules are licensed under permissive licenses, so that you don't have to worry about licensing when using them in your projects.
@@ -13,7 +15,8 @@ If you would like to contribute to the bible modules, make yourself familiar wit
 
 The first step would be to convert your translation into individual markdown files for each book / chapter, then you can add the index file for metadata.
 
-If your module is done, submit it via the [Github Discussion](https://github.com/orgs/OpenBibleProject/discussions/new?category=submit-modules) feature.
+
+If your module is done, upload it to Github and submit the link and licensing information about the translation via the [Github Discussion](https://github.com/orgs/OpenBibleProject/discussions/new?category=submit-modules) feature.
 
 ### ... to the documentation
 The OpenBibleProject website & documentation is built using [Astro](https://astro.build/) and the [Starlight theme](https://starlight.astro.build/).
