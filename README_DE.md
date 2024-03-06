@@ -1,5 +1,5 @@
 # OpenBibleProject 📖
-Lies das in: [Englisch 🇩🇪](README.md)
+Lies das in: [Englisch 🇺🇸](README.md)
 
 Das OpenBibleProject stellt eine Spezifikation für Bibelmodule zur Verfügung, die einfach zu implementieren und portabel ist.
 
