@@ -15,8 +15,8 @@ dependencies:
     specifier: ^5.0.18
     version: 5.0.18
   '@fontsource-variable/jetbrains-mono':
-    specifier: ^5.0.20
-    version: 5.0.20
+    specifier: ^5.0.21
+    version: 5.0.21
   astro:
     specifier: ^4.6.1
     version: 4.6.1
@@ -872,8 +872,8 @@ packages:
     resolution: {integrity: sha512-rJzSrtJ3b7djiGFvRuTe6stDfbYJGhdQSfn2SI2WfXviee7Er0yKAHE5u7FU7OWVQQQ1x3+cxdmx9NdiAkcrcA==}
     dev: false
 
-  /@fontsource-variable/jetbrains-mono@5.0.20:
-    resolution: {integrity: sha512-IWJnmY9vT5Olcac1vzA7FMdnojCrZWMq+g7SqC2jsFpY0LQTjIgp9gBjjw9kUOkNbLw37/evZO4w6rdPeMA68A==}
+  /@fontsource-variable/jetbrains-mono@5.0.21:
+    resolution: {integrity: sha512-LL/57KBbM3r0UMuN6tSeYExiBObt0QuGq49m1FyoDFIv1GAcuKU0EQ/GAKJ/yt3R8onOCD3f5X9Dln//G6uzRQ==}
     dev: false
 
   /@img/sharp-darwin-arm64@0.33.3:
