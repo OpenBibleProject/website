@@ -1,6 +1,5 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
 export default defineConfig({
@@ -23,16 +22,7 @@ export default defineConfig({
     editLink: {
       baseUrl: 'https://github.com/openbibleproject/docs/edit/main/'
     },
-	head: [
-		{
-		  tag: 'script',
-		  attrs: {
-			type: 'text/partytown',
-			src: 'https://umami.awesomebible.de/script.js',
-			'data-website-id': '9be0dcdf-7bd0-45e9-b2f7-93913404478b',
-		  },
-		},
-	  ],
+	head: [],
     social: {
       github: 'https://github.com/OpenBibleProject'
     },
@@ -56,5 +46,5 @@ export default defineConfig({
     customCss: [
     // Relative path to your custom CSS file
     '@fontsource-variable/inter', '@fontsource-variable/jetbrains-mono', '/src/assets/custom-styles.css']
-  }), partytown()]
+  })]
 });
