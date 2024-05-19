@@ -42,5 +42,5 @@ All commands are run from the root of the project, from a terminal:
 
 ### OpenBibleProject, an awesomeBible project.
 <a href="https://awesomebible.de" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/OpenBibleProject/openbibleproject.github.io/assets/42138517/1f02169e-29c5-4df9-a773-931d38537d9e" height="133" width="265" alt="awesomeBible Logo"></img>
+    <img src="https://github.com/OpenBibleProject/website/assets/42138517/a86fb996-1975-4760-834a-3de0156f2b34" height="133" width="265" alt="awesomeBible Logo"></img>
 </a>
