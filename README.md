@@ -1,5 +1,5 @@
 # OpenBibleProject 📖
-Read this in: [Deutsch 🇺🇸](README_DE.md)
+Read this in: [Deutsch 🇩🇪](README_DE.md)
 
 The OpenBibleProject provides a specification for bible modules that are both easy to implement and portable.
 
@@ -42,5 +42,5 @@ All commands are run from the root of the project, from a terminal:
 
 ### OpenBibleProject, an awesomeBible project.
 <a href="https://awesomebible.de" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/OpenBibleProject/website/assets/42138517/a86fb996-1975-4760-834a-3de0156f2b34" height="133" width="265" alt="awesomeBible Logo"></img>
+    <img src="https://raw.githubusercontent.com/awesomebible/assets/main/exports/svg/wordmark_gradient.svg" height="133" width="265" alt="awesomeBible Logo"></img>
 </a>
