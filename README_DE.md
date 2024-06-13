@@ -40,5 +40,5 @@ Alle Befehle werden vom Stammverzeichnis des Projekts aus in einem Terminal ausg
 
 ### OpenBibleProject, ein awesomeBible Projekt.
 <a href="https://awesomebible.de" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/OpenBibleProject/openbibleproject.github.io/assets/42138517/1f02169e-29c5-4df9-a773-931d38537d9e" height="133" width="265" alt="awesomeBible Logo"></img>
+    <img src="https://raw.githubusercontent.com/awesomebible/assets/main/exports/svg/wordmark_gradient.svg" height="133" width="265" alt="awesomeBible Logo"></img>
 </a>
