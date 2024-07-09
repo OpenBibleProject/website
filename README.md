@@ -27,6 +27,8 @@ If you'd like to translate pages, create a file with the same name in the respec
 
 Images can be added to `src/assets/` and embedded in Markdown with a relative link.
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/openbibleproject/website)  [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/openbibleproject/website) [![Open with Github.dev](https://img.shields.io/badge/Open_with-Github.dev-black?style=for-the-badge&logo=github)](https://github.dev/openbibleproject/website)
+
 #### 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
