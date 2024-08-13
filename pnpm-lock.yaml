@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@astrojs/starlight':
         specifier: ^0.25.4
-        version: 0.25.4(astro@4.13.1)
+        version: 0.25.4(astro@4.13.3)
       '@astrojs/starlight-docsearch':
         specifier: ^0.1.1
-        version: 0.1.1(@algolia/client-search@4.24.0)(@astrojs/starlight@0.25.4(astro@4.13.1))(search-insights@2.16.2)
+        version: 0.1.1(@algolia/client-search@4.24.0)(@astrojs/starlight@0.25.4(astro@4.13.3))(search-insights@2.16.2)
       '@fontsource-variable/inter':
         specifier: ^5.0.20
         version: 5.0.20
@@ -21,8 +21,8 @@ importers:
         specifier: ^5.0.21
         version: 5.0.21
       astro:
-        specifier: ^4.13.1
-        version: 4.13.1
+        specifier: ^4.13.3
+        version: 4.13.3
       sharp:
         specifier: ^0.33.4
         version: 0.33.4
@@ -552,9 +552,6 @@ packages:
     resolution: {integrity: sha512-R8gLRTZeyp03ymzP/6Lil/28tGeGEzhx1q2k703KGWRAI1VdvPIXdG70VJc2pAMw3NA6JKL5hhFu1sJX0Mnn/A==}
     engines: {node: '>=6.0.0'}
 
-  '@jridgewell/sourcemap-codec@1.4.15':
-    resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
-
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
@@ -800,8 +797,8 @@ packages:
     peerDependencies:
       astro: ^4.0.0-beta || ^3.3.0
 
-  astro@4.13.1:
-    resolution: {integrity: sha512-VnMjAc+ykFsIVjgbu9Mt/EA1fMIcPMXbU89h3ATwGOzSIKDsQH72bDgfJkWiwk6u0OE90GeP5EPhAT28Twf9oA==}
+  astro@4.13.3:
+    resolution: {integrity: sha512-MyhmM0v5sphiVwxAm5jjKxWeuPZijWPJ8Ajdign9QzEmLWSH8vUYIJWx/dWRQ6vF1I0jXrksoj3wtw5nzXt9nw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2167,12 +2164,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@3.1.3(astro@4.13.1)':
+  '@astrojs/mdx@3.1.3(astro@4.13.3)':
     dependencies:
       '@astrojs/markdown-remark': 5.2.0
       '@mdx-js/mdx': 3.0.1
       acorn: 8.12.1
-      astro: 4.13.1
+      astro: 4.13.3
       es-module-lexer: 1.5.4
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -2198,9 +2195,9 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/starlight-docsearch@0.1.1(@algolia/client-search@4.24.0)(@astrojs/starlight@0.25.4(astro@4.13.1))(search-insights@2.16.2)':
+  '@astrojs/starlight-docsearch@0.1.1(@algolia/client-search@4.24.0)(@astrojs/starlight@0.25.4(astro@4.13.3))(search-insights@2.16.2)':
     dependencies:
-      '@astrojs/starlight': 0.25.4(astro@4.13.1)
+      '@astrojs/starlight': 0.25.4(astro@4.13.3)
       '@docsearch/css': 3.6.1
       '@docsearch/js': 3.6.1(@algolia/client-search@4.24.0)(search-insights@2.16.2)
     transitivePeerDependencies:
@@ -2210,15 +2207,15 @@ snapshots:
       - react-dom
       - search-insights
 
-  '@astrojs/starlight@0.25.4(astro@4.13.1)':
+  '@astrojs/starlight@0.25.4(astro@4.13.3)':
     dependencies:
-      '@astrojs/mdx': 3.1.3(astro@4.13.1)
+      '@astrojs/mdx': 3.1.3(astro@4.13.3)
       '@astrojs/sitemap': 3.1.6
       '@pagefind/default-ui': 1.1.0
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
-      astro: 4.13.1
-      astro-expressive-code: 0.35.6(astro@4.13.1)
+      astro: 4.13.3
+      astro-expressive-code: 0.35.6(astro@4.13.3)
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.1
       hast-util-select: 6.0.2
@@ -2590,21 +2587,19 @@ snapshots:
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
       '@jridgewell/set-array': 1.2.1
-      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/sourcemap-codec': 1.5.0
       '@jridgewell/trace-mapping': 0.3.25
 
   '@jridgewell/resolve-uri@3.1.2': {}
 
   '@jridgewell/set-array@1.2.1': {}
 
-  '@jridgewell/sourcemap-codec@1.4.15': {}
-
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
   '@jridgewell/trace-mapping@0.3.25':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/sourcemap-codec': 1.5.0
 
   '@mdx-js/mdx@3.0.1':
     dependencies:
@@ -2834,12 +2829,12 @@ snapshots:
 
   astring@1.8.6: {}
 
-  astro-expressive-code@0.35.6(astro@4.13.1):
+  astro-expressive-code@0.35.6(astro@4.13.3):
     dependencies:
-      astro: 4.13.1
+      astro: 4.13.3
       rehype-expressive-code: 0.35.6
 
-  astro@4.13.1:
+  astro@4.13.3:
     dependencies:
       '@astrojs/compiler': 2.10.1
       '@astrojs/internal-helpers': 0.4.1
