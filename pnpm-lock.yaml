@@ -18,8 +18,8 @@ importers:
         specifier: ^5.0.20
         version: 5.0.20
       '@fontsource-variable/jetbrains-mono':
-        specifier: ^5.0.21
-        version: 5.0.21
+        specifier: ^5.0.22
+        version: 5.0.22
       astro:
         specifier: ^4.13.1
         version: 4.13.1
@@ -424,8 +424,8 @@ packages:
   '@fontsource-variable/inter@5.0.20':
     resolution: {integrity: sha512-dhzG4Zls/tIrf8h0FhTNi8jT/uFwNhdTY2vKe6DYqoXDYOfEcTVZDyh1hKml1rlLT44Y7OoKoGz8w7czDW7twQ==}
 
-  '@fontsource-variable/jetbrains-mono@5.0.21':
-    resolution: {integrity: sha512-LL/57KBbM3r0UMuN6tSeYExiBObt0QuGq49m1FyoDFIv1GAcuKU0EQ/GAKJ/yt3R8onOCD3f5X9Dln//G6uzRQ==}
+  '@fontsource-variable/jetbrains-mono@5.0.22':
+    resolution: {integrity: sha512-2LZQFb37H9iUY92qrhqjvrrkBPROdmBy5MMDgQX+FGeHdVE2WwvGt4lOpxOAy0L/bwE2Y0UCe/eb/tOs1kaTYQ==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -2497,7 +2497,7 @@ snapshots:
 
   '@fontsource-variable/inter@5.0.20': {}
 
-  '@fontsource-variable/jetbrains-mono@5.0.21': {}
+  '@fontsource-variable/jetbrains-mono@5.0.22': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
