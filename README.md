@@ -42,7 +42,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-### OpenBibleProject, an awesomeBible project.
+### OpenBibleProject, an awesomeBible project
 <a href="https://awesomebible.de" target="_blank" rel="noopener noreferrer">
     <img src="https://raw.githubusercontent.com/awesomebible/assets/main/exports/svg/wordmark_gradient.svg" height="133" width="265" alt="awesomeBible Logo"></img>
 </a>
