@@ -12,7 +12,7 @@
   "dependencies": {
     "@astrojs/starlight": "^0.27.1",
     "@astrojs/starlight-docsearch": "^0.1.1",
-    "@fontsource-variable/inter": "^5.0.20",
+    "@fontsource-variable/inter": "^5.0.21",
     "@fontsource-variable/jetbrains-mono": "^5.0.22",
     "astro": "^4.15.4",
     "sharp": "^0.33.5"
