@@ -23,13 +23,6 @@ export default defineConfig({
     editLink: {
       baseUrl: 'https://github.com/openbibleproject/docs/edit/main/'
     },
-    plugins: [
-      starlightDocSearch({
-        appId: 'VSOUB3M7ZH',
-        apiKey: 'c298c1ce79d2ee90d5e5b3e8f24fe72f',
-        indexName: 'obp-awesomebible',
-      }),
-    ],
 	head: [],
     social: {
       github: 'https://github.com/OpenBibleProject'
