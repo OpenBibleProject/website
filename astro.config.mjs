@@ -42,6 +42,12 @@ export default defineConfig({
       autogenerate: {
         directory: 'spec'
       }
+    },
+    {
+      label: 'Daily Texts',
+      autogenerate: {
+        directory: 'dailytexts'
+      }
     }],
     customCss: [
     // Relative path to your custom CSS file
