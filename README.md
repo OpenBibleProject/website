@@ -1,4 +1,6 @@
 # OpenBibleProject 📖
+[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build) [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/1ko0f.svg)](https://status.awesomebible.de/?utm_source=status_badge)
+
 Read this in: [Deutsch 🇩🇪](README_DE.md)
 
 The OpenBibleProject provides a specification for bible modules that are both easy to implement and portable.
