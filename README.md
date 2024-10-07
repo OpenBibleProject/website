@@ -7,10 +7,6 @@ The OpenBibleProject provides a specification for bible modules that are both ea
 
 All the modules are licensed under permissive licenses, so that you don't have to worry about licensing when using them in your projects.
 
-## Available modules
-- [Menge](https://github.com/OpenBibleProject/menge)
-
-
 ## Contributing
 ### ... to the bible modules
 If you would like to contribute to the bible modules, make yourself familiar with the module spec.

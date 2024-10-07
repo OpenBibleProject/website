@@ -44,6 +44,15 @@ export default defineConfig({
       }
     },
     {
+      label: 'Translations',
+      autogenerate: {
+        directory: 'translations',
+        translations: {
+          de: 'Übersetzungen'
+        }
+      }
+    },
+    {
       label: 'Daily Texts',
       autogenerate: {
         directory: 'dailytexts'
