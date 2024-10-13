@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@astrojs/starlight':
-        specifier: ^0.28.2
-        version: 0.28.2(astro@4.16.1(rollup@4.22.4)(typescript@5.5.4))
+        specifier: ^0.28.3
+        version: 0.28.3(astro@4.16.1(rollup@4.22.4)(typescript@5.5.4))
       '@fontsource-variable/inter':
         specifier: ^5.1.0
         version: 5.1.0
@@ -71,8 +71,8 @@ packages:
   '@astrojs/sitemap@3.1.6':
     resolution: {integrity: sha512-1Qp2NvAzVImqA6y+LubKi1DVhve/hXXgFvB0szxiipzh7BvtuKe4oJJ9dXSqaubaTkt4nMa6dv6RCCAYeB6xaQ==}
 
-  '@astrojs/starlight@0.28.2':
-    resolution: {integrity: sha512-Q1/Ujl2EzWX71qwqdt/0KP3wOyX6Rvyzcep/zD3hRCtw/Vi2TReh4Q2wLwz7mnbuYU9H7YvBKYknbkmjC+K/0w==}
+  '@astrojs/starlight@0.28.3':
+    resolution: {integrity: sha512-GXXIPKSu5d50mLVtgI4jf6pb3FPQm8n4MI6ZXuQQqqnA0xg7PJQ76WFSVyrICeqM5fKABSqcBksp/glyEJes/A==}
     peerDependencies:
       astro: ^4.14.0
 
@@ -1929,7 +1929,7 @@ snapshots:
       import-meta-resolve: 4.1.0
       mdast-util-definitions: 6.0.0
       rehype-raw: 7.0.0
-      rehype-stringify: 10.0.0
+      rehype-stringify: 10.0.1
       remark-gfm: 4.0.0
       remark-parse: 11.0.0
       remark-rehype: 11.1.1
@@ -1996,7 +1996,7 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/starlight@0.28.2(astro@4.16.1(rollup@4.22.4)(typescript@5.5.4))':
+  '@astrojs/starlight@0.28.3(astro@4.16.1(rollup@4.22.4)(typescript@5.5.4))':
     dependencies:
       '@astrojs/mdx': 3.1.7(astro@4.16.1(rollup@4.22.4)(typescript@5.5.4))
       '@astrojs/sitemap': 3.1.6
