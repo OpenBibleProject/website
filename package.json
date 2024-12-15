@@ -10,10 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.29.0",
+    "@astrojs/starlight": "^0.30.1",
     "@fontsource-variable/inter": "^5.1.0",
     "@fontsource-variable/jetbrains-mono": "^5.1.1",
-    "astro": "^4.16.12",
+    "astro": "^5.0.5",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
